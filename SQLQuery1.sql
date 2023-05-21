@@ -5,7 +5,7 @@ SELECT
     ,Count(*) as CNT
 FROM sys.objects
 GROUP BY type_desc
-ORDER BY CNT DEST 
+ORDER BY CNT DESC 
 
 
 --Q2: a. Write a SQL Statement that will show a count of schemas, tables, and columns (do not include views) in the AdventureWorks database.
